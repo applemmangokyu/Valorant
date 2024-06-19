@@ -1,0 +1,47 @@
+
+      h1 {
+         text-align:Center;
+         border-bottom: 10px solid black;
+         color: red;
+         padding: 10px;
+      }
+      h2{
+        color: blue;
+        text-decoration: underline;
+     }
+      #grid{
+         display: grid;
+         grid-template-columns: 250px 4fr;
+      }     
+      ol{
+         border-right: 6px solid black;
+         width: 160px;
+         margin: 0px;
+         text-decoration: underline;
+      } 
+
+      a{
+         text-decoration: none;
+      }
+      body{
+         margin: 0px;
+         background-color: palegoldenrod;
+      }
+      div{
+      padding: 0%;
+      }
+    
+      
+      @media(max-width: 600px) {
+         #grid{
+            display: block;
+         }
+         #grid ol{
+            border-right: none;
+         }
+         h1{
+            border-bottom: none;
+         }
+         
+      }
+  
